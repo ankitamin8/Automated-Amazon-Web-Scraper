@@ -66,6 +66,6 @@ today = datetime.date.today()
 today=str(today)
 data.append(today)
 
-with open('/Users/ankit/Documents/Projects/Aamzon_Scrapper/AmazonHeadphonePrice.csv', 'a', newline='', encoding='UTF8') as f:
+with open('/Users/ankit/Documents/Projects/Amazon_Scraper/AmazonHeadphonePrice.csv', 'a', newline='', encoding='UTF8') as f:
     writer = csv.writer(f)
     writer.writerow(data)
